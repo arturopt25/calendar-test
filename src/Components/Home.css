@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-height: 100%;
+    
+}
+
+section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #3c3fee,#567fcc);
+    border-radius: 0 0 70% 50%/0 0 100% 100%;
+    transform: scaleX(1.5);
+}
+
+section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+
+}
+
+
+
+h3 {
+    font-size: 2em;
+    color: #3c4f50;
+    margin: 7px 0 12px;
+}
+
+section .content p {
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    font-size: 80%;
+    
+}
+
+p {
+    font-size: 1em;
+    color: #3c4f50;
+    margin-bottom: 0px;
+}
+
+.formulario {
+    
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(255,250,250);
+    border-radius: 8px;
+    
+}
+.custom-shape-divider-bottom-1630373554 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1630373554 svg {
+    position: relative;
+    display: block;
+    width: calc(164% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-bottom-1630373554 .shape-fill {
+    fill: #FFFFFF;
+}
+
+section .centro {
+    min-height: 260px !important;
+}
+
+section .formulario {
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.input-container .react-datepicker-wrapper {
+    margin: 12px 0;
+    width: 100%;
+}
+
+.input-container .react-datepicker-wrapper input {
+    padding: 4px 12px;
+    border-radius: 4px;
+    border: 1px solid;
+  }
+  
+
+  
+  .select {
+      width: 194px;
+      height: 15px;
+      margin: 20px auto 40px;
+      border-radius: 4px;
+    }
+    
+    
+    .boton {
+        appearance: button;
+      backface-visibility: hidden;
+      background-color: #405cf5;
+      border-radius: 6px;
+      border-width: 0;
+      box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+      font-size: 100%;
+      height: 38px;
+      line-height: 1.15;
+      margin: 9px 0 12px;
+      outline: none;
+      overflow: hidden;
+      padding: 0 25px;
+      position: relative;
+      text-align: center;
+      text-transform: none;
+      transform: translateZ(0);
+      transition: all .2s,box-shadow .08s ease-in;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: 55%;
+    }
+
+    .calendario {
+        margin: 0 auto 40px;
+       
+    }
+    
+   
