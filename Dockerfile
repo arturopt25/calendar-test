@@ -7,7 +7,7 @@ COPY . /app
 
 ENV PATH /app/node_modules/.bin:$PATH
 
-RUN npm
+RUN npm 
 
 RUN npm build
 
